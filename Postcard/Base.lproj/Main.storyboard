@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="86x-sd-Jhw">
             <objects>
-                <viewController id="9K2-MC-94Z" sceneMemberID="viewController">
+                <viewController id="9K2-MC-94Z" customClass="ViewController" customModule="Postcard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vpc-5I-2Ss"/>
                         <viewControllerLayoutGuide type="bottom" id="JOo-mp-tYQ"/>
@@ -49,6 +49,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="285" width="368" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="sendMailButtonPressed:" destination="9K2-MC-94Z" eventType="touchUpInside" id="OIR-e6-93g"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOZ-Lz-V3w">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -80,6 +83,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="enterMessageTextField" destination="TZd-wb-sa3" id="TAD-U8-N0V"/>
+                        <outlet property="enterNameTextField" destination="0Fg-Gc-rvA" id="Xva-Lo-Fax"/>
+                        <outlet property="messageLabel" destination="jOZ-Lz-V3w" id="nPV-sI-v1K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9od-zO-S7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,7 +96,7 @@
         <!--Barcelona-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Postcard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
