@@ -84,8 +84,8 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="enterMessageTextField" destination="TZd-wb-sa3" id="TAD-U8-N0V"/>
-                        <outlet property="enterNameTextField" destination="0Fg-Gc-rvA" id="Xva-Lo-Fax"/>
+                        <outlet property="enterMessageTextField" destination="TZd-wb-sa3" id="ekE-8N-sL5"/>
+                        <outlet property="enterNameTextField" destination="0Fg-Gc-rvA" id="6dP-wI-nKZ"/>
                         <outlet property="messageLabel" destination="jOZ-Lz-V3w" id="nPV-sI-v1K"/>
                     </connections>
                 </viewController>
