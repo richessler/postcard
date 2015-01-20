@@ -87,6 +87,7 @@
                         <outlet property="enterMessageTextField" destination="TZd-wb-sa3" id="ekE-8N-sL5"/>
                         <outlet property="enterNameTextField" destination="0Fg-Gc-rvA" id="6dP-wI-nKZ"/>
                         <outlet property="messageLabel" destination="jOZ-Lz-V3w" id="nPV-sI-v1K"/>
+                        <outlet property="sendMailButton" destination="Unl-Sq-WYC" id="1lL-N5-7hH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9od-zO-S7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>

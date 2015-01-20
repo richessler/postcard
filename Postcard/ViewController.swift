@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
-    
-//    @IBOutlet var messageLabelRev: UIView!
+    @IBOutlet weak var sendMailButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +32,8 @@ class ViewController: UIViewController {
         
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
+        
+        sendMailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
 
 }
