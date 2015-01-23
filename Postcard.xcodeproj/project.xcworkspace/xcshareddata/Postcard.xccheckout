@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79D5B815-078C-4A14-AD1C-CEBC075D92F6</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52FB9636C115951FBFE94AA22CC5A1F1E30630F6</key>
+		<string>github.com:richessler/postcard.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52FB9636C115951FBFE94AA22CC5A1F1E30630F6</key>
+		<string>Postcard/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:richessler/postcard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52FB9636C115951FBFE94AA22CC5A1F1E30630F6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52FB9636C115951FBFE94AA22CC5A1F1E30630F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Postcard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
